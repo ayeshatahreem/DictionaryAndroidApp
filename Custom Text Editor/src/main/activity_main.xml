@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Lists dictionary in ascending order. "
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="18dp"
+    android:layout_centerHorizontal="true"
+    android:textColorHighlight="@color/abc_secondary_text_material_dark"
+    android:background="@color/dim_foreground_material_dark" />
+<Button
+    android:id="@+id/btnRetrieve"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="onClickDisplayDict"
+    android:text="Display dictionary" />
+<TextView
+    android:id="@+id/res"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:clickable="false"
+    android:ems="10" >
+</TextView>
+</LinearLayout>
