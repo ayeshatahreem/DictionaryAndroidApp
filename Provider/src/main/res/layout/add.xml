@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter word and corresponding meaning to add in db!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="@color/abc_secondary_text_material_dark"
+        android:background="@color/dim_foreground_material_dark" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Word" />
+    <EditText
+        android:id="@+id/txtWord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Meaning" />
+    <EditText
+        android:id="@+id/txtMeaning"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AddWord"
+        android:text="Add Word" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:id="@+id/back_button"
+        android:onClick="goBack"/>
+</LinearLayout>
